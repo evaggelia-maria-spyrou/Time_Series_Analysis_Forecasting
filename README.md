@@ -1,44 +1,29 @@
-Forecast of research trends for Knowledge Representation
+#**Forecast of research trends for Knowledge Representation**
 
 Time series analysis techniques to predict research trends based on their past behaviour around Knowledge Representation. 
 Knowledge Representation is a part of artificial intelligence that describes how we can represent knowledge in artificial intelligence 
 so that an intelligent machine can learn from knowledge and experiences so that it can behave intelligently like a human 
 and solve real-world problems. 
-Like diagnosing a medical condition or communicating with people in a natural language.
+
+**##Installation**
+
+**1.Pandas
+2.NumPy
+3.Statsmodels
+4.Matplotlib
+5.Sklearn , 
+6.Seaborn
+7.Math**
+
+**##Data**
+
+For this paper, we have drawn a dataset from the DBLP website (https://dblp.uni-trier.de/), particularly from 
+the file (dblp-2021-02- 01.xml.gz). This file contains a large number of publications about the science of 
+computer science. To extract the data, we created a Python parser, which reads each line looking for the 
+tag <title>, checks if it is in a list of words related to the subject area we are studying and then searches in 
+the following four lines for the tag <year> and adds the title to the data if it does not exist.
 
 
-Installation
-Pandas, NumPy, Statsmodels, Matplotlib, Sklearn , 
-Seaborn , Math
 
-List any requirements needed to install and run the project, such as programming language, libraries, and dependencies.
 
-Usage
-Explain how to use the project, including any input and output formats, and how to interpret the results.
-
-Data
-Describe the data sources used in the project, including any preprocessing steps or data cleaning.
-
-Methodology
-Describe the methods used for time series analysis and forecasting, including any models and algorithms.
-
-Results
-Provide a summary of the results achieved by the project, including any insights gained and limitations.
-
-Future Work
-Explain any future work that could be done to improve the project, such as expanding the dataset, improving the model, or adding new features.
-
-Contributing
-Explain how to contribute to the project, including guidelines for code contribution, bug reporting, and feature requests.
-
-License
-Specify the license used for the project and any conditions for use or distribution.
-
-Credits
-Give credit to any contributors, collaborators, or data sources used in the project.
-
-Contact
-Provide contact information for the project maintainer, such as an email address or social media handle.
-
-Following this outline will help ensure that your README.md file is informative and easy to understand, allowing users to quickly get up to speed on your project and contribute to its success.
 
